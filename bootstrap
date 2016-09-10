@@ -37,10 +37,6 @@ sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
     ./debtemplate/livesettings.postinst \
     > debian/${CODENAME_SAFE}-xorg-livesettings.postinst
- sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
-     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-     ./debtemplate/settings.postrm \
-     > ./debian/${CODENAME_SAFE}-xorg-settings.postrm
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
