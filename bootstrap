@@ -38,11 +38,16 @@ sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     ./debtemplate/livesettings.postinst \
     > debian/${CODENAME_SAFE}-xorg-livesettings.postinst
 
+
+## template
+
+cp -af template/etc .
+
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
     ./template/etc/skel/fluxbox/lastwallpaper \
     > ./etc/skel/fluxbox/lastwallpaper
-    cp -af templates/etc/skel/git* ./etc/skel/
+
 
 grub_template xorg
 
