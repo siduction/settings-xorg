@@ -1,4 +1,4 @@
-Source: whiteroom-xorg-settings
+Source: patience-xorg-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -12,11 +12,11 @@ Vcs-Git: https://git.siduction.org/extra/siduction-xorg.git
 Vcs-Browser: https://git.siduction.org/extra/siduction-xorg.git
 
 # xorg Settings
-Package: whiteroom-xorg-settings
+Package: patience-xorg-settings
 Architecture: all
 Depends: ${misc:Depends},
          fluxbox | x-window-manager,
-         whiteroom-common-settings
+         patience-common-settings
 Description: Xorg settings in installed mode
  Provides default settings for appearance and applications of the fluxbox
  desktop.
@@ -25,16 +25,16 @@ Description: Xorg settings in installed mode
  configurable by the local user and don't override already existing user
  profiles.
 
-Package: whiteroom-xorg-livesettings
+Package: patience-xorg-livesettings
 Architecture: all
 Depends: ${misc:Depends},
          sidu-installer (>= 2014.01.10),
          siduction-icons,
-         whiteroom-xorg-settings,
-         whiteroom-common-livesettings,
-         whiteroom-wallpapers,
-         whiteroom-sddm-livesettings
-         | whiteroom-ligthdm-gtk-livesettings
-         | whiteroom-gdm3-livesettings
+         patience-xorg-settings,
+         patience-common-livesettings,
+         patience-wallpapers,
+         patience-sddm-livesettings
+         | patience-ligthdm-gtk-livesettings
+         | patience-gdm3-livesettings
 Description: Xorg settings in live mode
  Meta package that throw in the needed dependencies for the settings package
