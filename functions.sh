@@ -57,7 +57,7 @@ function debian_changelog {
             -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
             -e "s/\@DISPLAY\@/${DISPLAY}/g" \
             ./debtemplate/changelog \
-            > debian/changelog
+            > ./debian/changelog
     fi
 }
 

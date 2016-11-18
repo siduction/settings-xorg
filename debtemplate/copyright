@@ -3,12 +3,13 @@ Upstream-Name: settings-@FLAVOUR@
 Source: https://git.siduction.org/extra/settings-@FLAVOUR@.git
 
 Files: *
-Copyright: 2012-2015 Alf Gaida <agaida@siduction.org>
+Copyright: 2012-2016 Alf Gaida <agaida@siduction.org>
+           2012-2015 Ovidiu Angelescu <convbsd@siduction.net>
+           2011-2012 Torsten Wohlfarth <towo@siduction.org>
 License: GPL-2.0
 
 Files: debian/*
-Copyright: 2012-2015 Alf Gaida <agaida@siduction.org>
-           2012-2015 Ovidiu Angelescu <convbsd@siduction.net>
+Copyright: 2012-2016 Alf Gaida <agaida@siduction.org>
 License: GPL-2.0
 
 License: GPL-2.0
@@ -26,4 +27,3 @@ License: GPL-2.0
  .
  On Debian systems, the complete text of the GNU General
  Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
-
