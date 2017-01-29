@@ -1,3 +1,9 @@
+patience-xorg-settings (2016.1.0-3) unstable; urgency=medium
+
+  * removed sidu-installer dependency 
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 29 Jan 2017 16:25:27 +0100
+
 patience-xorg-settings (2016.1.0-2) unstable; urgency=medium
 
   * killed livesettings.postinst 

@@ -28,7 +28,6 @@ Description: Xorg settings in installed mode
 Package: patience-xorg-livesettings
 Architecture: all
 Depends: ${misc:Depends},
-         sidu-installer (>= 2014.01.10),
          siduction-icons,
          patience-xorg-settings,
          patience-common-livesettings,
