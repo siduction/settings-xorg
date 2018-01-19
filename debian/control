@@ -1,23 +1,24 @@
-Source: @CODENAME_SAFE@-@FLAVOUR@-settings
+Source: @CODENAME_SAFE@-xorg-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
 Uploaders: Torsten Wohlfarth <towo@siduction.org>,
            Ovidiu Angelescu <convbsd@siduction.net>
-Build-Depends: debhelper (>= 9),
+Build-Depends: debhelper (>= 11),
                dh-systemd
-Standards-Version: 3.9.8
-Homepage: https://git.siduction.org/extra/siduction-@FLAVOUR@
-Vcs-Git: https://git.siduction.org/extra/siduction-@FLAVOUR@.git
-Vcs-Browser: https://git.siduction.org/extra/siduction-@FLAVOUR@.git
+Standards-Version: 4.1.3
+Homepage: https://git.siduction.org/extra/siduction-xorg
+Vcs-Git: https://git.siduction.org/extra/siduction-xorg.git
+Vcs-Browser: https://git.siduction.org/extra/siduction-xorg.git
 
-# @FLAVOUR@ Settings
-Package: @CODENAME_SAFE@-@FLAVOUR@-settings
+Package: @CODENAME_SAFE@-xorg-settings
 Architecture: all
 Depends: ${misc:Depends},
          fluxbox | x-window-manager,
+         @CODENAME_SAFE@-wallpapers,
+         @CODENAME_SAFE@-sddm-settings | @CODENAME_SAFE@-lightdm-gtk-settings | @CODENAME_SAFE@-gdm3-settings,
          @CODENAME_SAFE@-common-settings
-Description: @DISPLAY@ settings in installed mode
+Description: Xorg settings in installed mode
  Provides default settings for appearance and applications of the fluxbox
  desktop.
  .
@@ -25,15 +26,15 @@ Description: @DISPLAY@ settings in installed mode
  configurable by the local user and don't override already existing user
  profiles.
 
-Package: @CODENAME_SAFE@-@FLAVOUR@-livesettings
+Package: @CODENAME_SAFE@-xorg-livesettings
 Architecture: all
 Depends: ${misc:Depends},
          siduction-icons,
-         @CODENAME_SAFE@-@FLAVOUR@-settings,
+         @CODENAME_SAFE@-xorg-settings,
          @CODENAME_SAFE@-common-livesettings,
          @CODENAME_SAFE@-wallpapers,
          @CODENAME_SAFE@-sddm-livesettings
          | @CODENAME_SAFE@-ligthdm-gtk-livesettings
          | @CODENAME_SAFE@-gdm3-livesettings
-Description: @DISPLAY@ settings in live mode
+Description: Xorg settings in live mode
  Meta package that throw in the needed dependencies for the settings package
