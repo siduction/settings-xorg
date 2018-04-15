@@ -1,3 +1,9 @@
+paintitblack-xorg-settings (2018.3.0-1) unstable; urgency=medium
+
+  * bootstrap for 2018.3
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 15 Apr 2018 14:19:44 +0200
+
 paintitblack-xorg-settings (2016.08.08) unstable; urgency=medium
 
   * new bootstrap
@@ -6,7 +12,7 @@ paintitblack-xorg-settings (2016.08.08) unstable; urgency=medium
 
 paintitblack-xorg-settings (2016.06.20) unstable; urgency=medium
 
-  * Bump standards to 3.9.8, no changes needed 
+  * Bump standards to 3.9.8, no changes needed
 
  -- Alf Gaida <agaida@siduction.org>  Sat, 25 Jun 2016 13:07:04 +0200
 
@@ -25,7 +31,7 @@ paintitblack-xorg-settings (2016.03.30) unstable; urgency=medium
 
 paintitblack-xorg-settings (2016.03.25) unstable; urgency=medium
 
-  * new bootstrap 
+  * new bootstrap
 
  -- Alf Gaida <agaida@siduction.org>  Fri, 25 Mar 2016 01:00:39 +0100
 
