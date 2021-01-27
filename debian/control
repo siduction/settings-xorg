@@ -1,4 +1,4 @@
-Source: patience-xorg-settings
+Source: c-blues-xorg-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -10,15 +10,15 @@ Vcs-Browser: https://git.siduction.org/extra/siduction-xorg
 Vcs-Git: https://git.siduction.org/extra/siduction-xorg.git
 Homepage: https://git.siduction.org/extra/siduction-xorg
 
-Package: patience-xorg-settings
+Package: c-blues-xorg-settings
 Architecture: all
 Depends: ${misc:Depends},
          fluxbox | x-window-manager,
-         patience-wallpapers,
-         patience-sddm-settings
-	 | patience-lightdm-gtk-settings
-	 | patience-gdm3-settings,
-         patience-common-settings
+         c-blues-wallpapers,
+         c-blues-sddm-settings
+	 | c-blues-lightdm-gtk-settings
+	 | c-blues-gdm3-settings,
+         c-blues-common-settings
 Description: Xorg settings (installed mode)
  Provides default settings for appearance and applications of the fluxbox
  desktop.
@@ -27,15 +27,15 @@ Description: Xorg settings (installed mode)
  configurable by the local user and don't override already existing user
  profiles.
 
-Package: patience-xorg-livesettings
+Package: c-blues-xorg-livesettings
 Architecture: all
 Depends: ${misc:Depends},
          siduction-icons,
-         patience-xorg-settings,
-         patience-common-livesettings,
-         patience-wallpapers,
-         patience-sddm-livesettings
-         | patience-ligthdm-gtk-livesettings
-         | patience-gdm3-livesettings
+         c-blues-xorg-settings,
+         c-blues-common-livesettings,
+         c-blues-wallpapers,
+         c-blues-sddm-livesettings
+         | c-blues-ligthdm-gtk-livesettings
+         | c-blues-gdm3-livesettings
 Description: Xorg settings (live mode)
  Meta package that throw in the needed dependencies for the settings package

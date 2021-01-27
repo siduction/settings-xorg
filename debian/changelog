@@ -1,3 +1,9 @@
+c-blues-xorg-settings (2021.1.0) UNRELEASED; urgency=medium
+
+  * preparing 21.1 release c-blues
+
+ -- Hendrik Lehmbruch <hendrikl@siduction.org>  Wed, 27 Jan 2021 20:51:19 +0100
+
 patience-xorg-settings (2018.3.0-1) unstable; urgency=medium
 
   * release 18.3
