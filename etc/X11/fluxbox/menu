@@ -1,0 +1,10 @@
+[begin] (fluxbox)
+ [submenu] (siduction){}
+	[exec] (IRC Chat #siduction) {siduction-irc}
+	[exec] (calamares installer) {sudo calamares}
+ [end]
+ [submenu] (web)
+	[exec] (Webbrowser Firefox) {firefox}
+ [end]
+[include] (/etc/X11/fluxbox/fluxbox-menu)
+[end]
