@@ -1,13 +1,9 @@
 [begin] (fluxbox)
   [submenu] (siduction)
 	[exec] (IRC Chat #siduction) {siduction-irc}
-	[exec] (calamares installer) {sudo calamares}
 	[exec] (Terminal) {x-terminal-emulator -T "Bash" -e /bin/bash --login}
-    [submenu] (cli-installer)
-      [exec] (cli-installer) {x-terminal-emulator -e "sudo cli-installer">
-    [end]
   [end]
-  [submenu] (web)
+  [submenu] (Web)
 	[exec] (Webbrowser Firefox) {firefox}
   [end]
 [include] (/etc/X11/fluxbox/fluxbox-menu)
