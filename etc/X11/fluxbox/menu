@@ -2,7 +2,7 @@
   [submenu] (siduction)
 	[exec] (IRC Chat #siduction) {siduction-irc}
 	[exec] (calamares installer) {sudo calamares}
-	[exec] (Terminal) { x-terminal-emulator -T "Bash" -e /bin/bash --login}
+	[exec] (Terminal) {x-terminal-emulator -T "Bash" -e /bin/bash --login}
     [submenu] (cli-installer)
       [exec] (cli-installer) {x-terminal-emulator -e "sudo cli-installer">
     [end]
