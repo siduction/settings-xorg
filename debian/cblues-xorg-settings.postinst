@@ -24,8 +24,7 @@ case "$1" in
         systemctl stop wpa_supplicant.service
         systemctl mask wpa_supplicant.service
         ## start iwd ##
-        systemctl enable iwd.service
-        systemctl start iwd.service
+        systemctl enable --now iwd.service
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
