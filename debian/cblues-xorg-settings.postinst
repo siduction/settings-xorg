@@ -8,6 +8,10 @@ case "$1" in
     configure)
         ## grub ##
         cp -af /usr/share/cblues-xorg-settings/etc/default                  /etc
+        ## NetworkManager ##
+        cp -af /usr/share/cblues-xorg-settings/etc/NetworkManager           /etc
+        ## iwd ##
+        cp -af /usr/share/cblues-xorg-settings/etc/iwd                      /etc
         ## skel ##
         cp -af /usr/share/cblues-xorg-settings/etc/skel/fluxbox             /etc/skel/.fluxbox
         cp -af /usr/share/cblues-xorg-settings/etc/skel/dmrc                /etc/skel/.dmrc
