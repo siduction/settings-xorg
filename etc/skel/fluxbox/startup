@@ -16,7 +16,7 @@ xmodmap "/home/siducer/.Xmodmap"
 # idesk &
 fbpanel &
 pasystray &
-# diodon &
+diodon &
 # Debian-local change:
 #   - fbautostart has been added with a quick hack to check to see if it
 #     exists. If it does, we'll start it up by default.
