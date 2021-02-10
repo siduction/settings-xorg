@@ -2,6 +2,7 @@
   [submenu] (siduction)
 	[exec] (IRC Chat #siduction) {siduction-irc}
 	[exec] (Terminal) {x-terminal-emulator -T "Bash" -e /bin/bash --login}
+	[exec] (File-Manager) {spacefm}
   [end]
   [submenu] (Web)
 	[exec] (Webbrowser Firefox) {firefox}
