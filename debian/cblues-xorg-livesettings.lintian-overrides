@@ -1,1 +1,1 @@
-cblues-xfce-livesettings: init.d-script-call-internal-API etc/init.d/xfce-cheatcodes
+cblues-xorg-livesettings: init.d-script-call-internal-API etc/init.d/xorg-cheatcodes

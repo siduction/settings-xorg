@@ -1,11 +1,11 @@
 [Unit]
-Description=KDE cheatcodes in live media
-ConditionPathExists=/usr/share/cblues-kde-settings/
+Description=xorg cheatcodes in live media
+ConditionPathExists=/usr/share/cblues-xorg-livesettings/
 After=cblues-common-livesettings.service
 
 [Service]
 Type=oneshot
-ExecStart=/usr/share/cblues-kde-settings/xfce-cheatcodes start
+ExecStart=/usr/share/cblues-xorg-livesettings/xorg-cheatcodes start
 
 [Install]
 WantedBy=graphical.target
