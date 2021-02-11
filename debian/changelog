@@ -1,3 +1,9 @@
+cblues-xorg-settings (2021.1.0-9) unstable; urgency=medium
+
+  * try cheatcodes for iwd handling
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Thu, 11 Feb 2021 18:53:16 +0100
+
 cblues-xorg-settings (2021.1.0-8) unstable; urgency=medium
 
   * package latest commits up to 81b012258f by hendrikL
