@@ -14,6 +14,7 @@ case "$1" in
         cp -af /usr/share/cblues-xorg-settings/etc/iwd                      /etc
         ## skel ##
         cp -af /usr/share/cblues-xorg-settings/etc/skel/fluxbox             /etc/skel/.fluxbox
+        cp -af /usr/share/cblues-xorg-settings/etc/skel/info                /etc/skel/.info        
         cp -af /usr/share/cblues-xorg-settings/etc/skel/dmrc                /etc/skel/.dmrc
         cp -af /usr/share/cblues-xorg-settings/etc/skel/gitconfig           /etc/skel/.gitconfig
         cp -af /usr/share/cblues-xorg-settings/etc/skel/gitignore           /etc/skel/.gitignore
