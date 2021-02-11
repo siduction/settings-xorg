@@ -3,17 +3,17 @@
 	[exec] (NetworkManager - nmtui) {x-terminal-emulator -T "NetworkManger" -e nmtui}
 	[exec] (IRC Chat #siduction) {siduction-irc}
 	[exec] (siduction Forum -siduction.org) {firefox https://siduction.org}
-	[exec] (Terminal) {x-terminal-emulator -T "Bash" -e /bin/bash --login}
 	[exec] (Webbrowser Firefox) {firefox}
 	[exec] (File-Manager) {spacefm}
+	[exec] (flameshot - screenshot) {flameshot}
+	[exec] (Terminal) {x-terminal-emulator -T "Bash" -e /bin/bash --login}
 	[exec] (MidnightCommander - mc) {x-terminal-emulator -T "mc" -e mc}
 	[exec] (mcedit) {x-terminal-emulator -T "mcedit" -e mcedit}
-	[exec] (flameshot - screenshot) {flameshot}
 	[exec] (sshactivate) {x-terminal-emulator -T "sshactivate" -e su -l -c /usr/sbin/sshactivate}
 	[exec] (sshdeactivate) {x-terminal-emulator -T "sshdeactivate" -e su -l -c /usr/sbin/sshdeactivate}
 	   [submenu] (info)
-		[exec] (find more applications) {spacefm /usr/share/applications}
 		[exec] (Release Notes) {firefox ~/.info/release-notes.htm}
+		[exec] (find more applications) {spacefm /usr/share/applications}
 	   [end]
 	[end]
 [include] (/etc/X11/fluxbox/fluxbox-menu)
