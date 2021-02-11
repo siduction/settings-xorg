@@ -22,10 +22,10 @@ case "$1" in
         cp -af /usr/share/cblues-xorg-settings/etc/X11/Xresources/x11-xterm /etc/X11/Xresources
         cp -af /usr/share/cblues-xorg-settings/etc/X11/fluxbox              /etc/X11
         ## stop wpa ##
-        systemctl stop wpa_supplicant.service
-        systemctl mask wpa_supplicant.service
+        #systemctl stop wpa_supplicant.service
+        #systemctl mask wpa_supplicant.service
         ## start iwd ##
-        systemctl enable --now iwd.service
+        #systemctl enable --now iwd.service
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
