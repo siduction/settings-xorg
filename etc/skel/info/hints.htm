@@ -3,31 +3,34 @@
   <head>
     <meta charset="utf-8">
         <style>
-            h2 { 
-                margin-left: 2em;
-                }        
-            h3 { 
-                margin-left: 2.5em;
-                }
-            p {
+            body {
                 margin-left: 3em;
                 margin-right: 3em;
                 }
             pre {
+                white-space: pre-line;
+                padding-left: 2.5em;
+                padding-right: 2.5em;
+                font-family:monospace;
                 font-size: 1.3em;
                 font-style: italic;
                 }
             code{
-                font-size: 1.25em;
+                font-size: 1.35em;
                 font-style: italic;
+                font-family:monospace;
                 font-weight: bold;
-                }                
+                }
+             em {
+                /*font-size: 0.95em;*/
+                font-weight: bold;
+                }
+                
             ul {
-                margin-left: 3em;
+                padding-left: 2.5em;
                 }
             #author {
                 font-weight: bold;
-                margin-left: 3em;
                 }
         </style>
     <title>Hints Xorg C-Blues 2021.1.0</title>
@@ -36,9 +39,9 @@
     <header><h2>Short help for Xorg C-Blues 2021.1.0</h2></header>
         <main>
 
-        <p>The Xorg and noX flavors come with a new tool to connect your wireless devices. Intels  <a href="https://wiki.debian.org/NetworkManager/iwd">iNet wireless daemon</a> (<code>iwd</code>) sends WPA-Supplicant into well-earned retirement. Ten times smaller and a lot faster, <code>iwd</code> will be the successor!</p>
+        <p>The Xorg and noX flavors come with a new tool to connect your wireless devices. Intels  <em><a href="https://wiki.debian.org/NetworkManager/iwd">iNet wireless daemon</a></em> (<em>iwd</em>) sends WPA-Supplicant into well-earned retirement. Ten times smaller and a lot faster, <em>iwd</em> will be the successor!</p>
         
-        <p>If you want to use <code>wpa_supplicant</code> instead of <code>iwd</code> follow the steps below.</p>
+        <p>If you want to use <em>wpa_supplicant</em> instead of <em>iwd</em> follow the steps below.</p>
         
         <p>First stop and mask iwd.service, stop NetworkManager.service, rename /etc/NetworkManger/conf.d/nm.conf, unmask and start wpa_supplicant.service, start NetworkManager.service again:</p>
         
@@ -56,7 +59,7 @@
 
         <h3>Installtion</h3>
         
-        <p><code>Please read all!</code></p>
+        <p><em>Please read all!</em></p>
         
         <p>To start the graphical installer use <code>sudo calamares</code> or start the terminal installer <code>sudo cli-installer</code>.</p>
         
@@ -72,7 +75,7 @@
 
         <h3>Return to non-free</h3>
 
-        <p>Right now the installer does not offer an opt-out for packages that does not comply with DFSG, the Debian Free Software Guidelines. That means that non-free packages like unfree firmware will be installed by default on the system. The command<code><span> vrms</span></code> will list these packages for you. You can remove not wanted packages manually or remove them all by issuing<code><span> apt purge $(vrms -s)</span></code> before or after installation. Else our script <span><code>remove-nonfree</code></span> can do that for you.</p>
+        <p>Right now the installer does not offer an opt-out for packages that does not comply with DFSG, the Debian Free Software Guidelines. That means that non-free packages like unfree firmware will be installed by default on the system. The command<code> vrms</code> will list these packages for you. You can remove not wanted packages manually or remove them all by issuing<code> apt purge $(vrms -s)</code> before or after installation. Else our script <code>remove-nonfree</code> can do that for you.</p>
         
        
         <h3>Installation hints and pitfalls</h3>
