@@ -12,8 +12,8 @@
 	[exec] (sshactivate) {x-terminal-emulator -T "sshactivate" -e su -l -c /usr/sbin/sshactivate}
 	[exec] (sshdeactivate) {x-terminal-emulator -T "sshdeactivate" -e su -l -c /usr/sbin/sshdeactivate}
 	   [submenu] (info)
-		[exec] (Release Notes) {firefox ~/.info/release-notes.htm}
-		[exec] (find more applications) {spacefm /usr/share/applications}
+		[exec] (Installation hints and pitfalls) {firefox ~/.info/hints.htm}
+		[exec] (Find more applications) {spacefm /usr/share/applications}
 	   [end]
 	[end]
 [include] (/etc/X11/fluxbox/fluxbox-menu)
