@@ -11,7 +11,7 @@
 	[exec] (mcedit) {x-terminal-emulator -T "mcedit" -e mcedit}
 	[exec] (sshactivate) {x-terminal-emulator -T "sshactivate" -e su -l -c /usr/sbin/sshactivate}
 	[exec] (sshdeactivate) {x-terminal-emulator -T "sshdeactivate" -e su -l -c /usr/sbin/sshdeactivate}
-	   [submenu] (info)
+	   [submenu] (Info/Help)
 		[exec] (Installation hints and pitfalls) {firefox ~/.info/hints.htm}
 		[exec] (Find more applications) {spacefm /usr/share/applications}
 	   [end]
