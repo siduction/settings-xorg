@@ -1,3 +1,9 @@
+cblues-xorg-settings (2021.1.0-13) unstable; urgency=medium
+
+  * package latest changes 
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sun, 14 Feb 2021 10:57:13 +0100
+
 cblues-xorg-settings (2021.1.0-12) unstable; urgency=medium
 
   * package latest changes
