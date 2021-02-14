@@ -13,7 +13,6 @@
 	[exec] (sshdeactivate) {x-terminal-emulator -T "sshdeactivate" -e su -l -c /usr/sbin/sshdeactivate}
 	   [submenu] (Info/Help)
 		[exec] (Installation hints and pitfalls) {firefox ~/.info/hints.htm}
-		[exec] (Find more applications) {spacefm /usr/share/applications}
 	   [end]
 	[end]
 [include] (/etc/X11/fluxbox/fluxbox-menu)
