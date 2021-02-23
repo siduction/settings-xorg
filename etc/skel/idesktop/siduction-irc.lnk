@@ -2,7 +2,7 @@ table Icon
   Caption: siduction-irc
   Command: siduction-irc
   Icon: /usr/share/icons/hicolor/48x48/apps/siduction-irc.png
-  X: 219
+  X: 59
   Y: 99
 end
 
