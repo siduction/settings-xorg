@@ -1,7 +1,7 @@
 [Desktop Entry]
 Version=1.0
 Exec=xfce4-appfinder
-Icon=siduction
+Icon=/home/hhl/.local/share/icons/Symbol.png
 StartupNotify=true
 Terminal=false
 Type=Application
@@ -170,4 +170,3 @@ Keywords[zh_CN]=program;applications;bookmarks;程序;应用;书签;
 Keywords[zh_HK]=程序；應用程序；書籤；
 Keywords[zh_TW]=program;applications;bookmarks;
 Path=
-Hidden=true
