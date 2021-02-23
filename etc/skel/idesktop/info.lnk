@@ -1,8 +1,0 @@
-table Icon
-  Caption: Installation-Info
-  Command: firefox ~/.info/hints.htm
-  Icon: /usr/share/icons/Adwaita/48x48/status/software-update-urgent-symbolic.symbolic.png
-  X: 59
-  Y: 279
-end
-
