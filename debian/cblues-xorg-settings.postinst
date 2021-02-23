@@ -14,6 +14,9 @@ case "$1" in
         cp -af /usr/share/cblues-xorg-settings/etc/iwd                      /etc
         ## skel ##
         cp -af /usr/share/cblues-xorg-settings/etc/skel/fluxbox             /etc/skel/.fluxbox
+        cp -af /usr/share/cblues-xorg-settings/etc/skel/idesktop            /etc/skel/.idesktop
+        cp -af /usr/share/cblues-xorg-settings/etc/skel/config/tint2        /etc/skel/./config/tint2
+        cp -af /usr/share/cblues-xorg-settings/etc/skel/ideskrc             /etc/skel/.ideskrc
         cp -af /usr/share/cblues-xorg-settings/etc/skel/info                /etc/skel/.info        
         cp -af /usr/share/cblues-xorg-settings/etc/skel/dmrc                /etc/skel/.dmrc
         cp -af /usr/share/cblues-xorg-settings/etc/skel/gitconfig           /etc/skel/.gitconfig
@@ -21,11 +24,6 @@ case "$1" in
         ## X11 ##
         cp -af /usr/share/cblues-xorg-settings/etc/X11/Xresources/x11-xterm /etc/X11/Xresources
         cp -af /usr/share/cblues-xorg-settings/etc/X11/fluxbox              /etc/X11
-        ## stop wpa ##
-        #systemctl stop wpa_supplicant.service
-        #systemctl mask wpa_supplicant.service
-        ## start iwd ##
-        #systemctl enable --now iwd.service
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
