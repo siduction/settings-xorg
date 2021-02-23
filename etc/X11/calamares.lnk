@@ -1,0 +1,8 @@
+table Icon
+  Caption: install-siduction
+  Command: sudo calamares
+  Icon: /usr/share/icons/hicolor/48x48/apps/siduction.png
+  X: 79
+  Y: 99
+end
+
