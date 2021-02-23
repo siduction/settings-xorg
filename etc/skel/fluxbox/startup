@@ -13,7 +13,8 @@ xmodmap "/home/siducer/.Xmodmap"
 # unclutter -idle 2 &
 # wmnd &
 # wmsmixer -w &
-# idesk &
+idesk &
+tint2 &
 pasystray &
 #
 # Debian-local change:
