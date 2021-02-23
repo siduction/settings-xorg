@@ -1,0 +1,10 @@
+table Icon
+  Caption: home
+  Command: spacefm ~/
+  Icon: /usr/share/icons/gnome/48x48/actions/stock_home.png
+  Width: 48
+  Height: 48
+  X: 69
+  Y: 169
+end
+
