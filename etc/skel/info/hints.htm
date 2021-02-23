@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
         <style>
-            body {
+             body {
                 margin-left: 3em;
                 margin-right: 3em;
                 }
@@ -22,7 +22,7 @@
                 font-weight: bold;
                 }
              em {
-                /*font-size: 0.95em;*/
+                font-size: 0.95em;
                 font-weight: bold;
                 }
                 
@@ -39,30 +39,57 @@
     <header><h2>Short help for Xorg C-Blues 2021.1.0</h2></header>
         <main>
 
-        <p>The Xorg and noX flavors come with a new tool to connect your wireless devices. Intels  <em><a href="https://wiki.debian.org/NetworkManager/iwd">iNet wireless daemon</a></em> (<em>iwd</em>) sends WPA-Supplicant into well-earned retirement. Ten times smaller and a lot faster, <em>iwd</em> will be the successor!</p>
-        
+        <p>The Xorg and noX flavors come with a new tool to connect your wireless devices. Intels  <em><a href="https://wiki.debian.org/NetworkManager/iwd">iNet wireless daemon</a></em> (<em>iwd</em>) sends WPA-Supplicant into well-earned retirement. Ten times smaller and a lot faster, <em>iwd</em> will be the successor. Further information can be found in the <em><a href="https://wiki.archlinux.org/index.php/Iwd">Arch Linux wiki</a></em>.</p>
+
         <p>If you want to use <em>wpa_supplicant</em> instead of <em>iwd</em> follow the steps below.</p>
         
-        <p>First stop and mask iwd.service, stop NetworkManager.service, rename /etc/NetworkManger/conf.d/nm.conf, unmask and start wpa_supplicant.service, start NetworkManager.service again:</p>
+        <p>First stop and mask iwd.service, stop NetworkManager.service, rename /etc/NetworkManger/conf.d/nm.conf, unmask and start wpa_supplicant.service, start NetworkManager.service again:
         
-        <p><pre>
-        systemctl stop iwd.service
-        systemctl mask iwd.service
-        systemctl stop NetworkManager.service
-        mv /etc/NetworkManager/conf.d/nm.conf /etc/NetworkManager/conf.d/nm.conf~
-        systemctl unmask wpa_supplicant.service
-        systemctl enable --now wpa_supplicant.service
-        systemctl start NetworkManager.service
-        </pre></p>
+        <pre>
+        sudo systemctl stop iwd.service
+        sudo systemctl mask iwd.service
+        sudo systemctl stop NetworkManager.service
+        sudo mv /etc/NetworkManager/conf.d/nm.conf /etc/NetworkManager/conf.d/nm.conf~
+        sudo systemctl unmask wpa_supplicant.service
+        sudo systemctl enable --now wpa_supplicant.service
+        sudo systemctl start NetworkManager.service
+        </pre>
+        </p>
         
-        <p>Now you should be able to connect you wireless device with wpa_supplicant.</p>
+        <p>Now you should be able to connect your wireless device with wpa_supplicant.</p>
+        
+        <h3>Installing iwd</h3>
+        
+        <p>If you like, you can use <code>iwd</code> in the other flavors too, either on its own or within Network-Manager.</p>        
+        
+        <p>To easily set iwd up, use these steps:
+        <pre>
+        sudo apt update
+        sudo apt install iwd
+        sudo systemctl stop wpa_supplicant.service
+        sudo systemctl mask wpa_supplicant.service
+        sudo systemctl stop NetworkManager.service
+        sudo touch /etc/NetworkManager/conf.d/nm.conf
+        sudo echo -e "[device]\nwifi.backend=iwd" > /etc/NetworkManager/conf.d/nm.conf
+        sudo touch /etc/iwd/main.conf
+        sudo echo -e "[General]\nEnableNetworkConfiguration=true\n\n[Network]\nNameResolvingService=systemd" > /etc/iwd/main.conf
+        sudo systemctl enable --now iwd.service
+        sudo systemctl start NetworkManager.service
+        </pre>
+        </p>
+        
+        <p>Now you should be able to start an interactive shell by running <code>iwctl</code> from a terminal. Entering 'help' in the shell gives you all the options to list, scan and connect to your device or simply use <code>nmtui</code> or <code>nmcli</code> on the command line or the graphical-interface of Network-Manager</p>
 
-        <h3>Installtion</h3>
-        
-        <p><em>Please read all!</em></p>
-        
-        <p>To start the graphical installer use <code>sudo calamares</code> or start the terminal installer <code>sudo cli-installer</code>.</p>
-        
+        <h3>Why has there been no release since 2018?</h3>
+
+        <p>When the pandemic hit, we were in early preparations for a new release. Changes were mostly worked on for the infrastructure. Shortly thereafter, around April 2020, Alf (agaida), our lead developer vanished from the face of the earth and has not been heard of ever since. We have no idea what happened to him, as all our inquiries into his whereabouts came up empty. So, Alf, if you are reading this, come by and say peep. We miss you.</p>
+
+        <p>That being said, after agaida being in the wind for the better part of a year, we thought it was about time to do a new release without him, but based on his former work before he disappeared. So, we shook off our own corona blues and - tada - here it is, brand new, shiny and still hot off the servers.</p>
+
+        <h3>Official Releases and Isobuilds</h3>
+
+        <p>During our hiatus we built new images ever once in a while to keep the demand for fresh software for new installs covered. These images on <a href="https://isobuilds.siduction.org/">isobuilds</a> are unofficial, were and will continue to be tested by booting and installing them, but that's the extent of testing for that platform. So far, there was no trouble with that scheme. You will still be able to find fresh releases of GNOME and MATE along with the others there about once per month.</p>
+
         <h3>The following non-free and contrib packages are installed by default:</h3>
 
         <h3>Non-free</h3>
@@ -75,33 +102,35 @@
 
         <h3>Return to non-free</h3>
 
-        <p>Right now the installer does not offer an opt-out for packages that does not comply with DFSG, the Debian Free Software Guidelines. That means that non-free packages like unfree firmware will be installed by default on the system. The command<code> vrms</code> will list these packages for you. You can remove not wanted packages manually or remove them all by issuing<code> apt purge $(vrms -s)</code> before or after installation. Else our script <code>remove-nonfree</code> can do that for you.</p>
+        <p>Right now the installer does not offer an opt-out for packages that do not comply with DFSG, the Debian Free Software Guidelines. That means that non-free packages like unfree firmware will be installed by default on the system. The command<code> vrms</code> will list these packages for you. You can remove not wanted packages manually or remove them all by issuing<code> apt purge $(vrms -s)</code> before or after installation. Else our script <code>remove-nonfree</code> can do that for you.</p>
         
        
-        <h3>Installation hints and pitfalls</h3>
+        <h3>Installation hints and known issues</h3>
 
-        <p>If you want to reuse your existing home (or any other data) partition, it would be wise to do so after installation and not in the Calamares Installer.</p>
+        <ul><li>If you want to reuse your existing home (or any other data) partition, it would be wise to do so after installation and not in the Calamares Installer.</li>
 
-        <p>Encyption setups like LUKS and others are not yet supported by the Installer Framework, you should prepare your partition setup beforehand and might better use the <code>cli-installer</code> in a terminal.</p>
+        <li>Encryption setups like LUKS and others are not yet supported by the Installer Framework, you should prepare your partition setup beforehand and might better use the <code>cli-installer</code> in a terminal.</li>
+        
+        <li>With some Intel GPUs on some devices, you might encounter a frozen system on Live shortly after boot. To fix this you need to set the kernel parameter <code>intel_iommu=igfx_off</code> before booting again.</li></ul>
 
         <h3>Credits for siduction 2021.1.0</h3>
 
-        <h3><strong>Core Team</strong></h3>
+        <h3>Core Team</h3>
+  
         <p>Alf Gaida (agaida)<br>
-        Axel Beu (ab)<br>
-        Torsten Wohlfarth (towo)<br>
-        Hendrik Lehmbruch (hendrikL)<br>
-        Ferdinand Thommes (devil)</p>
+          Axel Beu (ab)<br>
+          Torsten Wohlfarth (towo)<br>
+          Hendrik Lehmbruch (hendrikL)<br>
+          Ferdinand Thommes (devil)</p>
 
         <h3>Code, ideas and support:</h3>
 
-        <p>der_bud <br>
-        Markus Meyer (coruja)<br>
-        akli (for his work on getting the manual back in shape)</p>
-          
+        <p>der_bud<br>
+          Markus Meyer (coruja)<br>
+          akli (for his work on getting the manual back in shape)</p>
         <h3>Thank you!</h3>
 
-        <p>We want to thank all testers and all the people giving us support in any possible way. This is also your achievement. We also want to thank Debian, as we are standing on the shoulders of giants.<br>And now enjoy!</p>
+        <p>We want to thank all testers and all the people giving us support over the years. This is also your achievement. We also want to thank Debian, as we are standing on the shoulders of giants.<br>And now enjoy!</p>
 
         <p>On behalf of the siduction team:</p>
     </main>

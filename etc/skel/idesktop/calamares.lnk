@@ -1,8 +1,10 @@
 table Icon
   Caption: install-siduction
   Command: sudo calamares
-  Icon: /usr/share/icons/hicolor/48x48/apps/siduction.png
-  X: 79
+  Icon: /usr/share/calamares/branding/default/squid.png
+  Width: 48
+  Height: 48
+  X: 59
   Y: 99
 end
 
