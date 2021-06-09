@@ -1,3 +1,9 @@
+farewell-xorg-settings (2021.1.99-1) unstable; urgency=medium
+
+  * prepare farewell packaging
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Wed, 09 Jun 2021 10:46:19 +0200
+
 cblues-xorg-settings (2021.1.0-13) unstable; urgency=medium
 
   * package latest changes 

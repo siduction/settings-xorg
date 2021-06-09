@@ -1,0 +1,11 @@
+[Unit]
+Description=xorg cheatcodes in live media
+ConditionPathExists=/usr/share/farewell-xorg-livesettings/
+After=farewell-common-livesettings.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/share/farewell-xorg-livesettings/xorg-cheatcodes start
+
+[Install]
+WantedBy=graphical.target
