@@ -6,9 +6,9 @@ Uploaders: Torsten Wohlfarth <towo@siduction.org>,
            Ovidiu Angelescu <convbsd@siduction.net>
 Build-Depends: debhelper (>= 11)
 Standards-Version: 4.1.4
-Vcs-Browser: https://git.siduction.org/extra/siduction-xorg
-Vcs-Git: https://git.siduction.org/extra/siduction-xorg.git
-Homepage: https://git.siduction.org/extra/siduction-xorg
+Vcs-Browser: https://github.com/siduction/siduction-xorg
+Vcs-Git: https://github.com/siduction/siduction-xorg.git
+Homepage: https://github.com/siduction/siduction-xorg
 
 Package: farewell-xorg-settings
 Architecture: all
