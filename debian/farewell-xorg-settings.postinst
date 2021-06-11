@@ -20,8 +20,6 @@ case "$1" in
         cp -af /usr/share/farewell-xorg-settings/etc/skel/ideskrc             /etc/skel/.ideskrc
         cp -af /usr/share/farewell-xorg-settings/etc/skel/info                /etc/skel/.info        
         cp -af /usr/share/farewell-xorg-settings/etc/skel/dmrc                /etc/skel/.dmrc
-        cp -af /usr/share/farewell-xorg-settings/etc/skel/gitconfig           /etc/skel/.gitconfig
-        cp -af /usr/share/farewell-xorg-settings/etc/skel/gitignore           /etc/skel/.gitignore
         ## X11 ##
         cp -af /usr/share/farewell-xorg-settings/etc/X11/Xresources/x11-xterm /etc/X11/Xresources
         cp -af /usr/share/farewell-xorg-settings/etc/X11/fluxbox              /etc/X11
