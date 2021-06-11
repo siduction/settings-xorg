@@ -1,3 +1,9 @@
+farewell-xorg-settings (2021.1.99-7) unstable; urgency=medium
+
+  * fix postinst
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Fri, 11 Jun 2021 23:28:45 +0200
+
 farewell-xorg-settings (2021.1.99-6) unstable; urgency=medium
 
   * package latest changes
