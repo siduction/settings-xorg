@@ -192,7 +192,7 @@ ac_disconnected_cmd =
 #-------------------------------------
 # Button 1
 button = new
-button_icon = ~/.config/tint2/siductio/apps.png
+button_icon = ~/.config/tint2/siduction/apps.png
 button_text = 
 button_lclick_command = jgmenu
 ## ~/.config/tint2/livia/launch
