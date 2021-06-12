@@ -60,7 +60,7 @@ border_color_pressed = #000000 0
 #-------------------------------------
 # Panel
 panel_items = PTSC
-panel_size = 100% 42
+panel_size = 100% 37
 panel_margin = 0 0
 panel_padding = 0 0 0
 panel_background_id = 1
