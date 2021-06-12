@@ -12,11 +12,11 @@ border_sides =
 border_content_tint_weight = 0
 background_content_tint_weight = 0
 background_color = #303145 100
-border_color = #000000 0
-background_color_hover = #000000 0
-border_color_hover = #000000 0
-background_color_pressed = #000000 0
-border_color_pressed = #000000 0
+border_color = #bb5511 100
+background_color_hover = #6c6f90 0
+border_color_hover = #ff7417 0
+background_color_pressed = #6c6f90 0
+border_color_pressed = #bb5511 0
 
 # Background 2: Active task
 rounded = 2
@@ -24,12 +24,11 @@ border_width = 2
 border_sides = TBLR
 border_content_tint_weight = 0
 background_content_tint_weight = 0
-background_color = #434461 100
-border_color = #40415c 100
-background_color_hover = #000000 0
-border_color_hover = #000000 0
-background_color_pressed = #000000 0
-border_color_pressed = #000000 0
+border_color = #bb5511 100
+background_color_hover = #6c6f90 0
+border_color_hover = #ff7417 0
+background_color_pressed = #6c6f90 0
+border_color_pressed = #bb5511 0
 
 # Background 3: Urgent task
 rounded = 0
@@ -38,24 +37,24 @@ border_sides =
 border_content_tint_weight = 0
 background_content_tint_weight = 0
 background_color = #f2a65d 100
-border_color = #000000 0
-background_color_hover = #000000 0
-border_color_hover = #000000 0
-background_color_pressed = #000000 0
-border_color_pressed = #000000 0
+border_color = #bb5511 100
+background_color_hover = #6c6f90 0
+border_color_hover = #ff7417 0
+background_color_pressed = #6c6f90 0
+border_color_pressed = #bb5511 0
 
 # Background 4: Default task
 rounded = 2
-border_width = 2
+border_width = 1
 border_sides = TBLR
-border_content_tint_weight = 0
+border_content_tint_weight = 1
 background_content_tint_weight = 0
 background_color = #262838 100
-border_color = #252838 100
-background_color_hover = #000000 0
-border_color_hover = #000000 0
-background_color_pressed = #000000 0
-border_color_pressed = #000000 0
+border_color = #bb5511 100
+background_color_hover = #6c6f90 0
+border_color_hover = #ff7417 0
+background_color_pressed = #6c6f90 0
+border_color_pressed = #bb5511 0
 
 #-------------------------------------
 # Panel
@@ -88,7 +87,7 @@ scale_relative_to_screen_height = 0
 # Taskbar
 taskbar_mode = single_desktop
 taskbar_hide_if_empty = 0
-taskbar_padding = 6 6 24
+taskbar_padding = 1 1 5
 taskbar_background_id = 1
 taskbar_active_background_id = 1
 taskbar_name = 0
@@ -142,7 +141,7 @@ systray_name_filter =
 
 #-------------------------------------
 # Launcher
-launcher_padding = 0 0 3
+launcher_padding = 0 0 0
 launcher_background_id = 0
 launcher_icon_background_id = 0
 launcher_icon_size = 0
@@ -193,7 +192,7 @@ ac_disconnected_cmd =
 #-------------------------------------
 # Button 1
 button = new
-button_icon = ~/.config/tint2/livia/apps.png
+button_icon = ~/.config/tint2/siductio/apps.png
 button_text = 
 button_lclick_command = jgmenu
 ## ~/.config/tint2/livia/launch
@@ -214,4 +213,4 @@ tooltip_hide_timeout = 0
 tooltip_padding = 8 4
 tooltip_background_id = 1
 tooltip_font_color = #664f3d 100
-tooltip_font = Noto Sans 8
+tooltip_font = Noto Sans 10
