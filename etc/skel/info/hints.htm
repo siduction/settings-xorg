@@ -53,7 +53,7 @@
 
         <p>If you want to use <em>wpa_supplicant</em> instead of <em>iwd</em> follow the steps below.</p>
         
-        <p>First stop and mask iwd.service, stop NetworkManager.service, rename /etc/NetworkManger/conf.d/nm.conf, unmask and start wpa_supplicant.service, start NetworkManager.service again:        
+        <p>First stop and mask iwd.service, stop NetworkManager.service, rename /etc/NetworkManager/conf.d/nm.conf, unmask and start wpa_supplicant.service, start NetworkManager.service again:        
             <pre>
             sudo systemctl stop iwd.service
             sudo systemctl mask iwd.service
