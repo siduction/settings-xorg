@@ -4,8 +4,10 @@
     <meta charset="utf-8">
         <style>
              body {
-                margin-left: 3em;
-                margin-right: 3em;
+                width: 75%;
+                margin: 0 auto;
+                padding-top: 2em;
+                padding-bottom: 2em;
                 }
             pre {
                 white-space: pre-line;
@@ -36,12 +38,16 @@
     <title>Hints Xorg Farewell 2021.2.0</title>
   </head>
   <body>
-    <header><h2>Short help for Xorg Farewell 2021.2.0</h2></header>
+    <header><h2>Short help/information for Xorg Farewell 2021.2.0</h2></header>
         <main>
 
         <p>The Xorg and noX flavors come with a new tool to connect your wireless devices. Intels  <em><a href="https://wiki.debian.org/NetworkManager/iwd">iNet wireless daemon</a></em> (<em>iwd</em>) sends WPA-Supplicant into well-earned retirement. Ten times smaller and a lot faster, <em>iwd</em> will be the successor. Further information can be found in the <em><a href="https://wiki.archlinux.org/index.php/Iwd">Arch Linux wiki</a></em>.</p>
         
         <p>You can start an interactive shell by running <code>iwctl</code> from a terminal. Entering 'help' in the shell gives you all the options to list, scan and connect to your device or simply use <code>nmtui</code> or <code>nmcli</code> on the command line or the graphical-interface of Network-Manager</p>
+        
+        <p>You can also use following command to connect, without the interaktiv shell, to your wifi:
+            <pre>iwctl --passphrase T0pS3ckr3t station wlan0 connect Home-Office</pre>
+        </p>
 
         <p>If you want to use <em>wpa_supplicant</em> instead of <em>iwd</em> follow the steps below.</p>
         
@@ -125,15 +131,17 @@
 
         <h3>Core Team</h3>
   
-        <p>Alf Gaida (agaida)<br>
-          Axel Beu (ab)<br>
+        <p>Alf Gaida (agaida), vanished from the face of the earth<br>
+          Axel Beu (ab) &#8224;, In memoriam<br>
           Torsten Wohlfarth (towo)<br>
           Hendrik Lehmbruch (hendrikL)<br>
-          Ferdinand Thommes (devil)</p>
+          Ferdinand Thommes (devil)<br>
+          Vinzenz Vietzke (vinzv)</p>
 
         <h3>Code, ideas and support:</h3>
 
         <p>der_bud<br>
+          Stefan Tell (cryptosteve)<br>
           Markus Meyer (coruja)<br>
           akli (for his work on getting the manual back in shape)</p>
         <h3>Thank you!</h3>
