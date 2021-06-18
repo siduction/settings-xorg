@@ -4,11 +4,17 @@
     <meta charset="utf-8">
         <style>
              body {
-                width: 75%;
-                margin: 0 auto;
-                padding-top: 2em;
+                padding-top: 1em;
                 padding-bottom: 2em;
                 }
+            #header-logo {
+                margin: 0 auto;
+                width: 100%;
+                }
+            main {
+                margin: 0 auto;
+                width: 75%;
+            }
             pre {
                 white-space: pre-line;
                 padding-left: 2.5em;
@@ -33,14 +39,20 @@
                 }
             #author {
                 font-weight: bold;
+                font-size: 1.25em;
                 }
+            header {
+                margin: 0 auto;
+                width: 75%;
+            }
         </style>
     <title>Hints Xorg Farewell 2021.2.0</title>
   </head>
   <body>
-    <header><h2>Short help/information for Xorg Farewell 2021.2.0</h2></header>
+  <img id="header-logo" src="./pic/logo-background.svg" >
+    <header> <h2>Short help/information for Xorg Farewell 2021.2.0</h2></header>
         <main>
-
+       
         <p>The Xorg and noX flavors come with a new tool to connect your wireless devices. Intels  <em><a href="https://wiki.debian.org/NetworkManager/iwd">iNet wireless daemon</a></em> (<em>iwd</em>) sends WPA-Supplicant into well-earned retirement. Ten times smaller and a lot faster, <em>iwd</em> will be the successor. Further information can be found in the <em><a href="https://wiki.archlinux.org/index.php/Iwd">Arch Linux wiki</a></em>.</p>
         
         <p>You can start an interactive shell by running <code>iwctl</code> from a terminal. Entering 'help' in the shell gives you all the options to list, scan and connect to your device or simply use <code>nmtui</code> or <code>nmcli</code> on the command line or the graphical-interface of Network-Manager</p>
@@ -151,7 +163,8 @@
         <p>We want to thank all testers and all the people giving us support over the years. This is also your achievement. We also want to thank Debian, as we are standing on the shoulders of giants.<br>And now enjoy!</p>
 
         <p>On behalf of the siduction team:</p>
+        <p id="author">Ferdinand Thommes</p>
     </main>
-        <footer><p id="author">Ferdinand Thommes</p></footer>
+        <footer></footer>
   </body>
 </html>
