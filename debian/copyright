@@ -5,7 +5,8 @@ Source: https://git.siduction.org/extra/settings-xorg.git
 Files: *
 Copyright: 2012-2018 Alf Gaida <agaida@siduction.org>
            2012-2015 Ovidiu Angelescu <convbsd@siduction.net>
-           2011-2012 Torsten Wohlfarth <towo@siduction.org>
+           2011-2021 Torsten Wohlfarth <towo@siduction.org>
+           2021 Hendrik Lehmbruch <hendrikl@siduction.org>
 License: GPL-2.0
 
 Files: debian/*
