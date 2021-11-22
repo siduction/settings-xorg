@@ -1,4 +1,4 @@
-Source: farewell-xorg-settings
+Source: 2021-03-xorg-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -10,15 +10,15 @@ Vcs-Browser: https://github.com/siduction/siduction-xorg
 Vcs-Git: https://github.com/siduction/siduction-xorg.git
 Homepage: https://github.com/siduction/siduction-xorg
 
-Package: farewell-xorg-settings
+Package: 2021-03-xorg-settings
 Architecture: all
 Depends: ${misc:Depends},
          fluxbox | x-window-manager,
-         farewell-wallpapers,
-         farewell-sddm-settings
-	 | farewell-lightdm-gtk-settings
-	 | farewell-gdm3-settings,
-         farewell-common-settings
+         2021-03-wallpapers,
+         2021-03-sddm-settings
+	 | 2021-03-lightdm-gtk-settings
+	 | 2021-03-gdm3-settings,
+         2021-03-common-settings
 Description: Xorg settings (installed mode)
  Provides default settings for appearance and applications of the fluxbox
  desktop.
@@ -27,15 +27,15 @@ Description: Xorg settings (installed mode)
  configurable by the local user and don't override already existing user
  profiles.
 
-Package: farewell-xorg-livesettings
+Package: 2021-03-xorg-livesettings
 Architecture: all
 Depends: ${misc:Depends},
          siduction-icons,
-         farewell-xorg-settings,
-         farewell-common-livesettings,
-         farewell-wallpapers,
-         farewell-sddm-livesettings
-         | farewell-ligthdm-gtk-livesettings
-         | farewell-gdm3-livesettings
+         2021-03-xorg-settings,
+         2021-03-common-livesettings,
+         2021-03-wallpapers,
+         2021-03-sddm-livesettings
+         | 2021-03-ligthdm-gtk-livesettings
+         | 2021-03-gdm3-livesettings
 Description: Xorg settings (live mode)
  Meta package that throw in the needed dependencies for the settings package
