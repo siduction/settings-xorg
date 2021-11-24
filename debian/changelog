@@ -1,16 +1,16 @@
-farewell-xorg-settings (2021.2.0-3) unstable; urgency=medium
+farewell-xorg-settings (2021.3.0-3) unstable; urgency=medium
 
   * add manual to desktop
 
  -- Torsten Wohlfarth <towo@siduction.org>  Tue, 27 Jul 2021 20:51:27 +0200
 
-farewell-xorg-settings (2021.2.0-2) unstable; urgency=medium
+farewell-xorg-settings (2021.3.0-2) unstable; urgency=medium
 
   * set mime for pdf to mupdf
 
  -- Torsten Wohlfarth <towo@siduction.org>  Tue, 27 Jul 2021 19:16:31 +0200
 
-farewell-xorg-settings (2021.2.0-1) unstable; urgency=medium
+farewell-xorg-settings (2021.3.0-1) unstable; urgency=medium
 
   * set final version
 
