@@ -1,3 +1,12 @@
+@search,,3,3,150,20,2,left,top,auto,#000000 0,Type to Search
+^sep()
 Terminal,x-terminal-emulator,utilities-terminal
 Browser,firefox,firefox
 ^sep()
+siduction,^siduction(siduction),/usr/share/icons/hicolor/48x48/apps/siduction.png
+^tag(siduction)
+siduction-irc,siduction-irc,/usr/share/icons/hicolor/48x48/apps/siduction-irc.png
+Hints and pitfalls,firefox ~/.info/hints.htm
+Manual,xdg-open /usr/share/siduction-manual/siduction-manual_de.pdf,/usr/share/icons/hicolor/48x48/apps/sidu-manual.png
+siduction Forum -siduction.org,firefox https://siduction.org,/usr/share/icons/hicolor/48x48/apps/siduction.png
+

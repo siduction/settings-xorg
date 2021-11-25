@@ -16,6 +16,7 @@ xmodmap "/home/siducer/.Xmodmap"
 tint2 &
 idesk &
 pasystray &
+nm-applet &
 #
 # Debian-local change:
 #   - fbautostart has been added with a quick hack to check to see if it
