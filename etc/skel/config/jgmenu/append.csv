@@ -1,5 +1,15 @@
+siduction -help,^checkout(siduction),/usr/share/icons/hicolor/48x48/apps/siduction.png
+^tag(siduction)
 ^sep()
 Exit,^checkout(exit),system-shutdown
+
+# siduction -help
+siduction-irc,siduction-irc,/usr/share/icons/hicolor/48x48/apps/siduction-irc.png
+Hints and pitfalls,firefox ~/.info/hints.htm,/usr/share/icons/Adwaita/32x32/emblems/emblem-important-symbolic.symbolic.png
+Manual,xdg-open /usr/share/siduction-manual/siduction-manual_de.pdf,/usr/share/icons/hicolor/48x48/apps/sidu-manual.png
+siduction Forum -siduction.org,firefox https://siduction.org,/usr/share/icons/hicolor/48x48/apps/siduction.png
+
+# logout menu
 ^tag(exit)
 Suspend,systemctl -i suspend,system-log-out
 Reboot,systemctl -i reboot,system-reboot

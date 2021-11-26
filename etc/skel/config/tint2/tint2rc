@@ -252,24 +252,6 @@ button_centered = 0
 button_max_icon_size = 0
 
 #-------------------------------------
-# Button 2
-button = new
-button_icon = /usr/share/icons/Adwaita/32x32/emblems/emblem-important-symbolic.symbolic.png
-button_text = 
-button_tooltip = Info/Help
-button_lclick_command = firefox ~/.info/hints.htm
-button_rclick_command = firefox ~/.info/hints.htm
-button_mclick_command = 
-button_uwheel_command = 
-button_dwheel_command = 
-button_font = Noto Sans 10
-button_font_color = #ffffff 100
-button_padding = 0 0
-button_background_id = 7
-button_centered = 1
-button_max_icon_size = 0
-
-#-------------------------------------
 # Tooltip
 tooltip_show_timeout = 0
 tooltip_hide_timeout = 0
