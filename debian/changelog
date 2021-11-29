@@ -1,8 +1,14 @@
+wintersky-xorg-settings (2021.2.99-6) unstable; urgency=medium
+
+  * package changes by hendrikL
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Mon, 29 Nov 2021 14:04:24 +0100
+
 wintersky-xorg-settings (2021.2.99-5) unstable; urgency=medium
 
   * removed /etc/default/grub.d
 
- -- Torsten Wohlfarth <towo@siduction.org>  Mon, 29 Nov 2021 09:37:31 +0100
+ -- Torsten Wohlfarth <towo@siduction.org>  Mon, 29 Nov 2021 14:03:22 +0100
 
 wintersky-xorg-settings (2021.2.99-4) unstable; urgency=medium
 
