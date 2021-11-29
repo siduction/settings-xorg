@@ -1,3 +1,9 @@
+wintersky-xorg-settings (2021.2.99-5) unstable; urgency=medium
+
+  * removed /etc/default/grub.d
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Mon, 29 Nov 2021 09:37:31 +0100
+
 wintersky-xorg-settings (2021.2.99-4) unstable; urgency=medium
 
   * set background to fill, to scale the right way (hendrikL)
