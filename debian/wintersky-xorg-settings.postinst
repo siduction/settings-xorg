@@ -6,8 +6,6 @@ set -e
 
 case "$1" in
     configure)
-        ## grub ##
-        cp -af /usr/share/wintersky-xorg-settings/etc/default                  /etc
         ## NetworkManager ##
         cp -af /usr/share/wintersky-xorg-settings/etc/NetworkManager           /etc
         ## iwd ##

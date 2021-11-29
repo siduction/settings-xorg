@@ -1,3 +1,9 @@
+wintersky-xorg-settings (2021.2.99-7) unstable; urgency=medium
+
+  * fix postinst
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Mon, 29 Nov 2021 17:04:28 +0100
+
 wintersky-xorg-settings (2021.2.99-6) unstable; urgency=medium
 
   * package changes by hendrikL
