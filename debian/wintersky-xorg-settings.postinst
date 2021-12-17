@@ -6,10 +6,6 @@ set -e
 
 case "$1" in
     configure)
-        ## NetworkManager ##
-        cp -af /usr/share/wintersky-xorg-settings/etc/NetworkManager           /etc
-        ## iwd ##
-        cp -af /usr/share/wintersky-xorg-settings/etc/iwd                      /etc
         ## skel ##
         cp -af /usr/share/wintersky-xorg-settings/etc/skel/fluxbox             /etc/skel/.fluxbox
         cp -af /usr/share/wintersky-xorg-settings/etc/skel/idesktop            /etc/skel/.idesktop

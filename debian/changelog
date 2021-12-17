@@ -1,3 +1,9 @@
+wintersky-xorg-settings (2021.2.99-8) unstable; urgency=medium
+
+  * put iwd to livesettings.psotinst from settings.postinst
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Fri, 17 Dec 2021 13:58:08 +0100
+
 wintersky-xorg-settings (2021.2.99-7) unstable; urgency=medium
 
   * fix postinst
