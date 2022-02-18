@@ -2,7 +2,7 @@
 
 
 PATH=/sbin:/usr/sbin:/bin:/usr/bin
-NAME="nox-cheatcodes"
+NAME="xorg-cheatcodes"
 
 if [ -r /etc/default/distro ]; then
     . /etc/default/distro
