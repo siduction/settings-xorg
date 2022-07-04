@@ -18,6 +18,7 @@ idesk &
 pasystray &
 nm-applet &
 xfce4-clipman &
+lxpolkit &
 #
 # Debian-local change:
 #   - fbautostart has been added with a quick hack to check to see if it
