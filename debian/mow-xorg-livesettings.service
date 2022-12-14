@@ -1,0 +1,11 @@
+[Unit]
+Description=xorg cheatcodes in live media
+ConditionPathExists=/usr/share/mow-xorg-livesettings/
+After=mow-common-livesettings.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/share/mow-xorg-livesettings/xorg-cheatcodes start
+
+[Install]
+WantedBy=graphical.target

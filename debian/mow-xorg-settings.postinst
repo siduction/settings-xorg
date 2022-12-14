@@ -1,0 +1,33 @@
+#!/bin/sh
+# postinst script for #PACKAGE#
+
+set -e
+
+
+case "$1" in
+    configure)
+        ## skel ##
+        cp -af /usr/share/mow-xorg-settings/etc/skel/fluxbox             /etc/skel/.fluxbox
+        cp -af /usr/share/mow-xorg-settings/etc/skel/idesktop            /etc/skel/.idesktop
+        cp -af /usr/share/mow-xorg-settings/etc/skel/config              /etc/skel/.config
+        cp -arf /usr/share/mow-xorg-settings/etc/skel/local              /etc/skel/.local
+        cp -af /usr/share/mow-xorg-settings/etc/skel/ideskrc             /etc/skel/.ideskrc
+        cp -af /usr/share/mow-xorg-settings/etc/skel/info                /etc/skel/.info
+        cp -af /usr/share/mow-xorg-settings/etc/skel/dmrc                /etc/skel/.dmrc
+        ## X11 ##
+        cp -af /usr/share/mow-xorg-settings/etc/X11/Xresources/x11-xterm /etc/X11/Xresources
+        cp -af /usr/share/mow-xorg-settings/etc/X11/fluxbox              /etc/X11
+    ;;
+
+    abort-upgrade|abort-remove|abort-deconfigure)
+    ;;
+
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+#DEBHELPER#
+
+exit 0
