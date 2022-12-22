@@ -1,3 +1,9 @@
+mow-xorg-settings (2022.1.0-2) unstable; urgency=medium
+
+  * package latest changes from hhl
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Thu, 22 Dec 2022 13:07:45 +0100
+
 mow-xorg-settings (2022.1.0-1) unstable; urgency=medium
 
   * prepare Masters of War release
