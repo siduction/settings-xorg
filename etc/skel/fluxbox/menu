@@ -11,9 +11,6 @@
 	[exec] (mcedit) {x-terminal-emulator -T "mcedit" -e mcedit}
 	[exec] (sshactivate) {x-terminal-emulator -T "sshactivate" -e su -l -c /usr/sbin/sshactivate}
 	[exec] (sshdeactivate) {x-terminal-emulator -T "sshdeactivate" -e su -l -c /usr/sbin/sshdeactivate}
-	   [submenu] (Info/Help)
-		[exec] (Installation hints and pitfalls) {evince ~/.info/hints.pdf}
-	   [end]
 	[end]
 [include] (/etc/X11/fluxbox/fluxbox-menu)
 [end]

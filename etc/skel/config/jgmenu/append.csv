@@ -5,7 +5,6 @@ Exit,^checkout(exit),system-shutdown
 # siduction -help
 ^tag(siduction)
 siduction-irc,siduction-irc,/usr/share/icons/hicolor/48x48/apps/siduction-irc.png
-Hints and pitfalls,xdg-open ~/.info/hints.pdf,/usr/share/icons/Adwaita/32x32/emblems/emblem-important-symbolic.symbolic.png
 Manual,xdg-open /usr/share/siduction-manual/siduction-manual_de.pdf,/usr/share/icons/hicolor/48x48/apps/sidu-manual.png
 siduction Forum -siduction.org,firefox https://siduction.org,/usr/share/icons/hicolor/48x48/apps/siduction.png
 
