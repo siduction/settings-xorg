@@ -1,6 +1,6 @@
 table Icon
-  Caption: Handbuch (DE)
-  Command: xdg-open /usr/share/siduction-manual/siduction-manual_de.pdf
+  Caption: Manual
+  Command: /usr/share/siduction/start.sh
   Icon: /usr/share/icons/hicolor/48x48/apps/sidu-manual.png
   Width: 48
   Height: 48
