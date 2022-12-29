@@ -3,7 +3,6 @@
 ^sep()
 Terminal,x-terminal-emulator,utilities-terminal
 Browser,firefox,firefox
-chroot-helper, sudo x-terminal-emulator -e /usr/share/siduction/chroot-helper,utilities-terminal
 ^sep()
 
 
