@@ -1,3 +1,9 @@
+mow-xorg-settings (2022.1.0-6) unstable; urgency=medium
+
+  * fix manual link
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Thu, 29 Dec 2022 14:43:29 +0100
+
 mow-xorg-settings (2022.1.0-5) unstable; urgency=medium
 
   * package [hhl] remove wintersky help from the menues
