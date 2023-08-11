@@ -1,3 +1,9 @@
+giants-xorg-settings (2023.1-1) unstable; urgency=medium
+
+  * prepare release
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Fri, 11 Aug 2023 16:49:53 +0200
+
 mow-xorg-settings (2022.1.0-7) unstable; urgency=medium
 
   * [hhl] remove chroot-helper link

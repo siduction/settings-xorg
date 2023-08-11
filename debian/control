@@ -1,4 +1,4 @@
-Source: mow-xorg-settings
+Source: giants-xorg-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -10,15 +10,15 @@ Vcs-Browser: https://github.com/siduction/siduction-xorg
 Vcs-Git: https://github.com/siduction/siduction-xorg.git
 Homepage: https://github.com/siduction/siduction-xorg
 
-Package: mow-xorg-settings
+Package: giants-xorg-settings
 Architecture: all
 Depends: ${misc:Depends},
          fluxbox | x-window-manager,
-         mow-wallpapers,
-         mow-sddm-settings
-	 | mow-lightdm-gtk-settings
-	 | mow-gdm3-settings,
-         mow-common-settings
+         giants-wallpapers,
+         giants-sddm-settings
+	 | giants-lightdm-gtk-settings
+	 | giants-gdm3-settings,
+         giants-common-settings
 Description: Xorg settings (installed mode)
  Provides default settings for appearance and applications of the fluxbox
  desktop.
@@ -27,15 +27,15 @@ Description: Xorg settings (installed mode)
  configurable by the local user and don't override already existing user
  profiles.
 
-Package: mow-xorg-livesettings
+Package: giants-xorg-livesettings
 Architecture: all
 Depends: ${misc:Depends},
          siduction-icons,
-         mow-xorg-settings,
-         mow-common-livesettings,
-         mow-wallpapers,
-         mow-sddm-livesettings
-         | mow-ligthdm-gtk-livesettings
-         | mow-gdm3-livesettings
+         giants-xorg-settings,
+         giants-common-livesettings,
+         giants-wallpapers,
+         giants-sddm-livesettings
+         | giants-ligthdm-gtk-livesettings
+         | giants-gdm3-livesettings
 Description: Xorg settings (live mode)
  Meta package that throw in the needed dependencies for the settings package
