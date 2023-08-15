@@ -1,0 +1,9 @@
+table Icon
+  Caption: chroot-helper
+  Command: sudo x-terminal-emulator -e /usr/share/siduction/chroot-helper
+  Icon: /usr/share/icons/gnome/48x48/apps/terminal.png
+  Width: 48
+  Height: 48
+  X: 69
+  Y: 499
+end
