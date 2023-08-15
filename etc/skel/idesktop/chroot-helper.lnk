@@ -1,7 +1,7 @@
 table Icon
   Caption: chroot-helper
   Command: sudo x-terminal-emulator -e /usr/share/siduction/chroot-helper
-  Icon: /usr/share/icons/siduction/chroot.png
+  Icon: /usr/share/siduction/icons/chroot.png
   Width: 48
   Height: 48
   X: 69
