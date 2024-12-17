@@ -1,4 +1,4 @@
-Source: giants-xorg-settings
+Source: shine-on-xorg-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -10,15 +10,15 @@ Vcs-Browser: https://github.com/siduction/siduction-xorg
 Vcs-Git: https://github.com/siduction/siduction-xorg.git
 Homepage: https://github.com/siduction/siduction-xorg
 
-Package: giants-xorg-settings
+Package: shine-on-xorg-settings
 Architecture: all
 Depends: ${misc:Depends},
          fluxbox | x-window-manager,
-         giants-wallpapers,
-         giants-sddm-settings
-	 | giants-lightdm-gtk-settings
-	 | giants-gdm3-settings,
-         giants-common-settings
+         shine-on-wallpapers,
+         shine-on-sddm-settings
+	 | shine-on-lightdm-gtk-settings
+	 | shine-on-gdm3-settings,
+         shine-on-common-settings
 Description: Xorg settings (installed mode)
  Provides default settings for appearance and applications of the fluxbox
  desktop.
@@ -27,15 +27,15 @@ Description: Xorg settings (installed mode)
  configurable by the local user and don't override already existing user
  profiles.
 
-Package: giants-xorg-livesettings
+Package: shine-on-xorg-livesettings
 Architecture: all
 Depends: ${misc:Depends},
          siduction-icons,
-         giants-xorg-settings,
-         giants-common-livesettings,
-         giants-wallpapers,
-         giants-sddm-livesettings
-         | giants-ligthdm-gtk-livesettings
-         | giants-gdm3-livesettings
+         shine-on-xorg-settings,
+         shine-on-common-livesettings,
+         shine-on-wallpapers,
+         shine-on-sddm-livesettings
+         | shine-on-ligthdm-gtk-livesettings
+         | shine-on-gdm3-livesettings
 Description: Xorg settings (live mode)
  Meta package that throw in the needed dependencies for the settings package

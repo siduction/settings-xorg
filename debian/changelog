@@ -1,3 +1,9 @@
+shine-on-xorg-settings (2024.1-1) unstable; urgency=medium
+
+  * prepare 2024.1 release
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Tue, 17 Dec 2024 20:32:58 +0100
+
 giants-xorg-settings (2023.1-5) unstable; urgency=medium
 
   * fix chroot

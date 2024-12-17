@@ -1,0 +1,11 @@
+[Unit]
+Description=xorg cheatcodes in live media
+ConditionPathExists=/usr/share/shine-on-xorg-livesettings/
+After=shine-on-common-livesettings.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/share/shine-on-xorg-livesettings/xorg-cheatcodes start
+
+[Install]
+WantedBy=graphical.target
