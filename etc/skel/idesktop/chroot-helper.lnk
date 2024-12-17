@@ -4,6 +4,6 @@ table Icon
   Icon: /usr/share/siduction/icons/chroot.png
   Width: 48
   Height: 48
-  X: 69
-  Y: 600
+  X: 499
+  Y: 29
 end
