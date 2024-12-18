@@ -35,9 +35,9 @@ end
 table Actions
   Lock: control right doubleClk
   Reload: middle doubleClk
-  Drag: left hold
-  EndDrag: left singleClk
-  Execute[0]: right singleClk
+  Drag: right hold
+  EndDrag: right singleClk
+  Execute[0]: left singleClk
 end
 
 
