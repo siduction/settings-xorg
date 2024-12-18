@@ -182,7 +182,7 @@ systray_name_filter =
 
 #-------------------------------------
 # Launcher
-launcher_padding = 0 0 3
+launcher_padding = 5 5 5
 launcher_background_id = 0
 launcher_icon_background_id = 0
 launcher_icon_size = 0
