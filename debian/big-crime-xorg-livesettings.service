@@ -1,0 +1,11 @@
+[Unit]
+Description=xorg cheatcodes in live media
+ConditionPathExists=/usr/share/big-crime-xorg-livesettings/
+After=big-crime-common-livesettings.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/share/big-crime-xorg-livesettings/xorg-cheatcodes start
+
+[Install]
+WantedBy=graphical.target

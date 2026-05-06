@@ -1,3 +1,9 @@
+big-crime-xorg-settings (2026.1-1) unstable; urgency=medium
+
+  * New release.
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Wed, 06 May 2026 16:03:37 +0200
+
 shine-on-xorg-settings (2024.1-4) unstable; urgency=medium
 
   * changed right <-> left Click

@@ -1,24 +1,23 @@
-Source: shine-on-xorg-settings
+Source: big-crime-xorg-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
-Uploaders: Torsten Wohlfarth <towo@siduction.org>,
-           Ovidiu Angelescu <convbsd@siduction.net>
+Uploaders: Torsten Wohlfarth <towo@siduction.org>
 Build-Depends: debhelper (>= 11)
 Standards-Version: 4.1.4
 Vcs-Browser: https://github.com/siduction/siduction-xorg
 Vcs-Git: https://github.com/siduction/siduction-xorg.git
 Homepage: https://github.com/siduction/siduction-xorg
 
-Package: shine-on-xorg-settings
+Package: big-crime-xorg-settings
 Architecture: all
 Depends: ${misc:Depends},
          fluxbox | x-window-manager,
-         shine-on-wallpapers,
-         shine-on-sddm-settings
-	 | shine-on-lightdm-gtk-settings
-	 | shine-on-gdm3-settings,
-         shine-on-common-settings
+         big-crime-wallpapers,
+         big-crime-sddm-settings
+	 | big-crime-lightdm-gtk-settings
+	 | big-crime-gdm3-settings,
+         big-crime-common-settings
 Description: Xorg settings (installed mode)
  Provides default settings for appearance and applications of the fluxbox
  desktop.
@@ -27,15 +26,15 @@ Description: Xorg settings (installed mode)
  configurable by the local user and don't override already existing user
  profiles.
 
-Package: shine-on-xorg-livesettings
+Package: big-crime-xorg-livesettings
 Architecture: all
 Depends: ${misc:Depends},
          siduction-icons,
-         shine-on-xorg-settings,
-         shine-on-common-livesettings,
-         shine-on-wallpapers,
-         shine-on-sddm-livesettings
-         | shine-on-ligthdm-gtk-livesettings
-         | shine-on-gdm3-livesettings
+         big-crime-xorg-settings,
+         big-crime-common-livesettings,
+         big-crime-wallpapers,
+         big-crime-sddm-livesettings
+         | big-crime-ligthdm-gtk-livesettings
+         | big-crime-gdm3-livesettings
 Description: Xorg settings (live mode)
  Meta package that throw in the needed dependencies for the settings package
