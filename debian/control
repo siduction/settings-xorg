@@ -31,6 +31,6 @@ Depends: ${misc:Depends},
          big-crime-xorg-settings,
          big-crime-common-livesettings,
          big-crime-wallpapers,
-         big-crime-ligthdm-gtk-livesettings
+         big-crime-lightdm-gtk-livesettings
 Description: Xorg settings (live mode)
  Meta package that throw in the needed dependencies for the settings package
