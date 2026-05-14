@@ -1,3 +1,10 @@
+big-crime-xorg-settings (2026.1-2) unstable; urgency=medium
+
+  [ hhl ]
+  * BigCrime !=big-crime
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Thu, 14 May 2026 13:39:28 +0200
+
 big-crime-xorg-settings (2026.1-1) unstable; urgency=medium
 
   * New release.
