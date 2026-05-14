@@ -14,9 +14,7 @@ Architecture: all
 Depends: ${misc:Depends},
          fluxbox | x-window-manager,
          big-crime-wallpapers,
-         big-crime-sddm-settings
-	 | big-crime-lightdm-gtk-settings
-	 | big-crime-gdm3-settings,
+         big-crime-lightdm-gtk-settings,
          big-crime-common-settings
 Description: Xorg settings (installed mode)
  Provides default settings for appearance and applications of the fluxbox
@@ -33,8 +31,6 @@ Depends: ${misc:Depends},
          big-crime-xorg-settings,
          big-crime-common-livesettings,
          big-crime-wallpapers,
-         big-crime-sddm-livesettings
-         | big-crime-ligthdm-gtk-livesettings
-         | big-crime-gdm3-livesettings
+         big-crime-ligthdm-gtk-livesettings
 Description: Xorg settings (live mode)
  Meta package that throw in the needed dependencies for the settings package
