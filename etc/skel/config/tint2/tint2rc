@@ -6,7 +6,7 @@
 #-------------------------------------
 # Backgrounds
 # Background 1: Active taskbar, Button, Clock, Inactive taskbar, Panel, Systray, Tooltip
-rounded = 0
+rounded = 10
 border_width = 0
 border_sides = 
 border_content_tint_weight = 0
@@ -99,8 +99,8 @@ border_color_pressed = #bb5511 0
 #-------------------------------------
 # Panel
 panel_items = PFLFPTFSC
-panel_size = 100% 37
-panel_margin = 0 0
+panel_size = 97% 32
+panel_margin = 0 8
 panel_padding = 0 0 0
 panel_background_id = 1
 wm_menu = 0
