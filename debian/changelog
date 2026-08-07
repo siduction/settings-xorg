@@ -1,3 +1,10 @@
+big-crime-xorg-settings (2026.1-4) unstable; urgency=medium
+
+  [ hhl ]
+  * minor changes at the panel
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Fri, 07 Aug 2026 14:20:59 +0200
+
 big-crime-xorg-settings (2026.1-3) unstable; urgency=medium
 
   * switch to lightdm
