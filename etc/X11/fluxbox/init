@@ -64,7 +64,7 @@ session.styleOverlay:	/home/siducer/.fluxbox/overlay
 session.menuFile:	~/.fluxbox/menu
 session.configVersion:	13
 session.cacheMax:	200
-session.styleFile:	/usr/share/fluxbox/styles//debian-blue
+session.styleFile:	~/.fluxbox/siduction.theme
 session.doubleClickInterval:	250
 session.tabPadding:	0
 session.autoRaiseDelay:	250
