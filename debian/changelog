@@ -1,3 +1,10 @@
+big-crime-xorg-settings (2026.1-6) unstable; urgency=medium
+
+  [ hhl ]
+  * added a siduction.theme
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sat, 08 Aug 2026 20:50:07 +0200
+
 big-crime-xorg-settings (2026.1-5) unstable; urgency=medium
 
   [ hhl ]
