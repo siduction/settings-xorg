@@ -1,3 +1,10 @@
+big-crime-xorg-settings (2026.1-7) unstable; urgency=medium
+
+  [ hhl ]
+  * fix jgmenurc
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sun, 09 Aug 2026 21:41:33 +0200
+
 big-crime-xorg-settings (2026.1-6) unstable; urgency=medium
 
   [ hhl ]
