@@ -16,7 +16,8 @@ Depends: ${misc:Depends},
          big-crime-wallpapers,
          big-crime-lightdm-gtk-settings,
          big-crime-common-settings,
-         lxpanel-data
+         lxpanel-data,
+         lxmenu-data
 Description: Xorg settings (installed mode)
  Provides default settings for appearance and applications of the fluxbox
  desktop.
