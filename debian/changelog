@@ -1,3 +1,13 @@
+big-crime-xorg-settings (2026.1-9) unstable; urgency=medium
+
+    [ hhl ]
+  * spacefm, single click, Add lxmenu-data to package dependencies, next try to fix jgmenu, added flamshot.ini to enable flameshot in the X11 envoirement by default, testing if we do not need the cheatcodes for to enable iwd
+
+    [ towo ]
+  * packaging
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Tue, 01 Sep 2026 11:01:08 +0200
+
 big-crime-xorg-settings (2026.1-8) unstable; urgency=medium
 
   [ hhl ]
