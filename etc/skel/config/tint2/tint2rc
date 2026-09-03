@@ -223,7 +223,7 @@ launcher_item_app = /usr/share/applications/firefox.desktop
 launcher_item_app = /usr/share/applications/spacefm.desktop
 launcher_item_app = /usr/share/applications/termit.desktop
 # trying to fix a tint2 crash with the zoite-icon with export G_SLICE=always-malloc
-# hobe it works
+# hope it works
 launcher_item_app = export G_SLICE=always-malloc; /usr/share/applications/siduction-irc.desktop
 launcher_item_app = /usr/share/applications/thunderbird.desktop
 launcher_item_app = /usr/share/applications/org.flameshot.Flameshot.desktop
