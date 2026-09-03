@@ -1,6 +1,6 @@
 table Icon
   Caption: siduction-irc
-  Command: siduction-irc
+  Command: export G_SLICE=always-malloc; siduction-irc
   Icon: /usr/share/icons/hicolor/48x48/apps/siduction-irc.png
   X: 249
   Y: 29
