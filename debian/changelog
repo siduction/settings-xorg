@@ -1,3 +1,13 @@
+big-crime-xorg-settings (2026.1-9.1) UNRELEASED; urgency=medium
+
+    [ hhl ]
+  * revert removing etc/iwd and etc/NetworkManager
+  * trying to workaround a tint2 crash when the zoitechat tray-icon meets the systray,
+  * maybe also more GTK3 tray-icons, by adding export G_SLICE=always-malloc and 
+  * disabling the zoite tray-icon, it could easely be reverted in the settings. 
+
+ -- Hendrik Lehmbruch <hendrikL@siduction.org>  Thu, 03 Sep 2026 15:58:26 +0200
+
 
 big-crime-xorg-settings (2026.1-9) unstable; urgency=medium
 
