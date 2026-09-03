@@ -1,6 +1,6 @@
-big-crime-xorg-settings (2026.1-9.1) UNRELEASED; urgency=medium
+big-crime-xorg-settings (2026.1-10) unstable; urgency=medium
 
-    [ hhl ]
+  [ hhl ]
   * revert removing etc/iwd and etc/NetworkManager
   * trying to workaround a tint2 crash when the zoitechat tray-icon meets the systray,
   * maybe also more GTK3 tray-icons, by adding export G_SLICE=always-malloc and 
@@ -9,15 +9,17 @@ big-crime-xorg-settings (2026.1-9.1) UNRELEASED; urgency=medium
   * fixed a typo in jgmenu.rc
   * fixed icon-path in xfceappfinder.desktop
 
- -- Hendrik Lehmbruch <hendrikL@siduction.org>  Thu, 03 Sep 2026 15:58:26 +0200
+  [ Torsten Wohlfarth ]
+  * packaging
 
+ -- Torsten Wohlfarth <towo@siduction.org>  Thu, 03 Sep 2026 20:10:37 +0200
 
 big-crime-xorg-settings (2026.1-9) unstable; urgency=medium
 
-    [ hhl ]
+  [ hhl ]
   * spacefm, single click, Add lxmenu-data to package dependencies, next try to fix jgmenu, added flamshot.ini to enable flameshot in the X11 envoirement by default, testing if we do not need the cheatcodes for to enable iwd
 
-    [ towo ]
+  [ towo ]
   * packaging
 
  -- Torsten Wohlfarth <towo@siduction.org>  Tue, 01 Sep 2026 11:01:08 +0200
