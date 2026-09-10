@@ -1,0 +1,2 @@
+[Command]
+Logout=loginctl terminate-session self

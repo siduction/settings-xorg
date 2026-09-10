@@ -1,8 +1,0 @@
-@search,,3,3,150,20,2,left,top,auto,#000000 0,Type to Search
-^sep()
-^sep()
-Terminal,x-terminal-emulator,utilities-terminal
-Browser,firefox,firefox
-^sep()
-
-

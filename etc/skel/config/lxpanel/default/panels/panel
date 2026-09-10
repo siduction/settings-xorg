@@ -1,0 +1,141 @@
+# lxpanel <profile> config file. Manually editing is not recommended.
+# Use preference dialog in lxpanel to adjust config when you can.
+
+Global {
+  edge=bottom
+  align=center
+  margin=0
+  widthtype=percent
+  width=100
+  height=33
+  transparent=1
+  tintcolor=#c0bfbc
+  alpha=255
+  setdocktype=1
+  setpartialstrut=1
+  usefontcolor=1
+  fontcolor=#080651
+  background=0
+  backgroundfile=/usr/share/lxpanel/images/background.png
+  iconsize=31
+  usefontsize=1
+  fontsize=13
+  heightwhenhidden=4
+}
+Plugin {
+  type=space
+  Config {
+    Size=0
+  }
+  expand=0
+}
+Plugin {
+  type=menu
+  Config {
+    system {
+    }
+    separator {
+    }
+    item {
+      command=run
+    }
+    separator {
+    }
+    item {
+      command=logout
+      image=gnome-logout
+    }
+    image=~/.config/lxpanel/siduction/apps_blue.png
+  }
+}
+Plugin {
+  type=space
+  Config {
+  }
+  expand=0
+}
+Plugin {
+  type=launchbar
+  Config {
+    Button {
+      id=firefox.desktop
+    }
+    Button {
+      id=net.zoite.Zoitechat.desktop
+    }
+    Button {
+      id=termit.desktop
+    }
+    Button {
+      id=spacefm.desktop
+    }
+  }
+}
+Plugin {
+  type=space
+  Config {
+  }
+  expand=0
+}
+Plugin {
+  type=wincmd
+  Config {
+    Button1=iconify
+    Button2=shade
+  }
+}
+Plugin {
+  type=space
+  Config {
+  }
+  expand=0
+}
+Plugin {
+  type=taskbar
+  expand=1
+  Config {
+    tooltips=1
+    IconsOnly=0
+    AcceptSkipPager=1
+    ShowIconified=1
+    ShowMapped=1
+    ShowAllDesks=-1
+    ShowSquareBrackets=1
+    UseMouseWheel=1
+    UseUrgencyHint=0
+    FlatButton=0
+    MaxTaskWidth=250
+    spacing=3
+  }
+}
+Plugin {
+  type=volume
+  Config {
+    VolumeMuteKey=XF86AudioMute
+    VolumeDownKey=XF86AudioLowerVolume
+    VolumeUpKey=XF86AudioRaiseVolume
+  }
+}
+Plugin {
+  type=tray
+  Config {
+    spacing=5
+    Background=#D3D3D3
+  }
+}
+Plugin {
+  type=space
+  Config {
+  }
+  expand=0
+}
+Plugin {
+  type=dclock
+  Config {
+    ClockFmt=%R
+    TooltipFmt=%A %x
+    BoldFont=0
+    IconOnly=0
+    CenterText=0
+  }
+}
