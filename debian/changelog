@@ -1,3 +1,12 @@
+big-crime-xorg-settings (2026.1-10.1) UNRELEASED; urgency=medium
+
+  * Non-maintainer upload.
+  * changed to lxpanel, because tint2, from unstable, can't handle some gtk3/4 systray-icons
+  * therefore jgmenu is not needed, so I removed it too
+  * also removed the export G_SLICE=always-malloc workaround
+
+ -- Hendrik Lehmbruch <hendrikL@siduction.org>  Thu, 10 Sep 2026 21:36:01 +0200
+
 big-crime-xorg-settings (2026.1-10) unstable; urgency=medium
 
   [ hhl ]
