@@ -25,7 +25,7 @@ Global {
 Plugin {
   type=space
   Config {
-    Size=0
+    Size=5
   }
   expand=0
 }
@@ -51,12 +51,19 @@ Plugin {
 Plugin {
   type=space
   Config {
+    Size=5
   }
   expand=0
 }
 Plugin {
+  type=pager
+  Config {
+  }
+}
+Plugin {
   type=launchbar
   Config {
+    spacing=5
     Button {
       id=firefox.desktop
     }
@@ -74,6 +81,7 @@ Plugin {
 Plugin {
   type=space
   Config {
+    Size=5
   }
   expand=0
 }
@@ -87,6 +95,7 @@ Plugin {
 Plugin {
   type=space
   Config {
+    Size=5
   }
   expand=0
 }
@@ -126,6 +135,7 @@ Plugin {
 Plugin {
   type=space
   Config {
+    Size=5
   }
   expand=0
 }
@@ -138,4 +148,11 @@ Plugin {
     IconOnly=0
     CenterText=0
   }
+}
+Plugin {
+  type=space
+  Config {
+    Size=5
+  }
+  expand=0
 }
