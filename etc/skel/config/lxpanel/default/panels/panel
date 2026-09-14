@@ -45,7 +45,7 @@ Plugin {
       command=logout
       image=gnome-logout
     }
-    image=~/.config/lxpanel/siduction/apps_blue.png
+    image=~/.config/lxpanel/siduction/apps.png
   }
 }
 Plugin {
