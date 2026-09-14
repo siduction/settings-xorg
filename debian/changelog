@@ -1,9 +1,12 @@
-big-crime-xorg-settings (2026.1-11.1) UNRELEASED; urgency=medium
+big-crime-xorg-settings (2026.1-12) unstable; urgency=medium
 
   [ Hendrik Lehmbruch ]
   * fixed theme, gtk3 != gtk-3.0, now it should work
 
- -- Hendrik Lehmbruch <hendrikL@siduction.org>  Mon, 14 Sep 2026 15:32:30 +0200
+  [ Torsten Wohlfarth ]
+  * packaging
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Mon, 14 Sep 2026 18:30:03 +0200
 
 big-crime-xorg-settings (2026.1-11) unstable; urgency=medium
 
