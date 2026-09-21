@@ -1,5 +1,5 @@
 [Default Applications]
-application/pdf=mupdf.desktop
+application/pdf=org.gnome.Evince.desktop
 
 [Added Associations]
-application/pdf=mupdf.desktop;
+application/pdf=org.gnome.Evince.desktop

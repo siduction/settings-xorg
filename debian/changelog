@@ -1,3 +1,9 @@
+big-crime-xorg-settings (2026.1-12.1) UNRELEASED; urgency=medium
+
+  * fixed mime.typ pdf
+
+ -- Hendrik Lehmbruch <hendrikL@siduction.org>  Mon, 21 Sep 2026 19:25:54 +0200
+
 big-crime-xorg-settings (2026.1-12) unstable; urgency=medium
 
   [ Hendrik Lehmbruch ]
